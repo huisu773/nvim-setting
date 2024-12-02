@@ -56,3 +56,4 @@ map("n", "Q", ":qa!<CR>", opt)
 -- jump to line begin/end
 map("i", "<C-h>", "<ESC>I", opt)
 map("i", "<C-l>", "<ESC>A", opt)
+
