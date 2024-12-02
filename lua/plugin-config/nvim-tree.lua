@@ -81,6 +81,7 @@ nvim_tree.setup({
         cmd = 'open', -- mac 直接设置为 open
     },
 })
+
 -- auto close
 vim.cmd([[
   autocmd BufEnter * ++nested if winnr('$') == 1 && bufname() == 'NvimTree_' . tabpagenr() | quit | endif

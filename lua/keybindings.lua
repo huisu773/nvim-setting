@@ -57,3 +57,6 @@ map("n", "Q", ":qa!<CR>", opt)
 map("i", "<C-h>", "<ESC>I", opt)
 map("i", "<C-l>", "<ESC>A", opt)
 
+-- plugins
+---- nvimtree
+map("n", "<A-m>", ":NvimTreeToggle<CR>", opt)
