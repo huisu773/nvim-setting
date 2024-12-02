@@ -27,34 +27,34 @@ db.custom_header = {
 }
 
 db.setup({
-    theme = 'doom',
+    theme = "doom",
     config = {
         header = db.custom_header,
         center = {
             {
-                icon = ' ',
-                desc = ' Find File',
-                action = 'Telescope find_files'
+                icon = " ",
+                desc = " Find File",
+                action = "Telescope find_files"
             }, 
             {
-                icon = ' ',
-                desc = ' Find Text',
-                action = 'Telescope live_grep'
+                icon = " ",
+                desc = " Find Text",
+                action = "Telescope live_grep"
             },
             {
-                icon = ' ',
-                desc = ' Recent Files',
-                action = 'Telescope oldfiles'
+                icon = " ",
+                desc = " Recent Files",
+                action = "Telescope oldfiles"
             },
             {
-                icon = ' ',
-                desc = ' Recent Projects',
-                action = 'Telescope projects'
+                icon = " ",
+                desc = " Recent Projects",
+                action = "Telescope projects"
             },
             {
-                icon = ' ',
-                desc = ' Edit Projects',
-                action = 'edit ~/.local/share/nvim/project_nvim/project_history',
+                icon = " ",
+                desc = " Edit Projects",
+                action = "edit ~/.local/share/nvim/project_nvim/project_history",
             },
         },
     }

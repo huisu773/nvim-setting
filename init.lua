@@ -1,9 +1,9 @@
 -- basic setting
-require('basic')
-require("keybindings")
---require("plugins")
+require("config.basic")
+require("config.keybindings")
+--require("config.plugins")
 require("config.lazy")
-require("colorscheme")
+require("config.colorscheme")
 -- plugin setting
 require("plugin-config.nvim-tree")
 require("plugin-config.bufferline")

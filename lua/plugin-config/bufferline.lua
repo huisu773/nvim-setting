@@ -8,7 +8,7 @@ end
 -- https://github.com/akinsho/bufferline.nvim#configuration
 bufferline.setup({
     options = {
-        mode = 'buffers',
+        mode = "buffers",
         close_command = "Bdelete! %d",
         right_mouse_command = "Bdelete! %d",
         offsets = {
@@ -19,7 +19,7 @@ bufferline.setup({
                 separator = true,
             }
         },
-        diagnostics = 'nvim_lsp',
+        diagnostics = "nvim_lsp",
         diagnostics_indicator = function(count, level, diagnostics_dict, context)
             local s = " "
             for e, n in pairs(diagnostics_dict) do

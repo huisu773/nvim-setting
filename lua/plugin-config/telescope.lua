@@ -5,7 +5,7 @@ if not status then
 end
 
 local map = vim.keymap.set
-local telescope_api = require('telescope.actions')
+local telescope_api = require("telescope.actions")
 
 telescope.setup({
     defaults = {

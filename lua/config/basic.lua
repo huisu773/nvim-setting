@@ -1,6 +1,6 @@
 -- utf8
 vim.g.encoding = "UTF-8"
-vim.o.fileencoding = 'utf-8'
+vim.o.fileencoding = "utf-8"
 -- keep 8 lines when use jkhl to move
 vim.o.scrolloff = 8
 vim.o.sidescrolloff = 8
@@ -43,7 +43,7 @@ vim.bo.autoread = true
 -- forbid wrap
 vim.wo.wrap = false
 -- jump to next line in beginning or end
-vim.o.whichwrap = '<,>,[,]'
+vim.o.whichwrap = "<,>,[,]"
 -- hide changed buffer
 vim.o.hidden = true
 -- mouse support
@@ -70,8 +70,8 @@ vim.opt.termguicolors = true
 -- vim.o.listchars = "space:·"
 -- improved complete
 vim.o.wildmenu = true
--- Dont' pass messages to |ins-completin menu|
-vim.o.shortmess = vim.o.shortmess .. 'c'
+-- Dont" pass messages to |ins-completin menu|
+vim.o.shortmess = vim.o.shortmess .. "c"
 -- max 10 lines in complete
 vim.o.pumheight = 10
 -- show tabline
