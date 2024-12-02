@@ -6,7 +6,7 @@ end
 
 treesitter.setup({
     -- :TSInstallInfo
-    ensure_installed = { "json", "html", "css", "vim", "lua", "javascript", "typescript", "tsx", "python", "go" },
+    -- ensure_installed = { "json", "html", "css", "vim", "lua", "javascript", "typescript", "tsx", "python", "go" },
     -- code highlight 
     highlight = {
         enable = true,
