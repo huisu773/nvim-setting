@@ -58,5 +58,11 @@ map("i", "<C-h>", "<ESC>I", opt)
 map("i", "<C-l>", "<ESC>A", opt)
 
 -- plugins
----- nvimtree
+-- nvimtree
 map("n", "<A-m>", ":NvimTreeToggle<CR>", opt)
+-- telescope
+---- find file
+map("n", "<C-p>", ":Telescope find_files<CR>", opt)
+---- golbal search
+map("n", "<C-f>", ":Telescope live_grep<CR>", opt)
+

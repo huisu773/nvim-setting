@@ -3,12 +3,17 @@ packer.startup({
     function(use)
         use ("wbthomason/packer.nvim")
         use ("folke/tokyonight.nvim")
-        use({"nvim-tree/nvim-tree.lua", 
+        use ({"nvim-tree/nvim-tree.lua", 
                 requires = "nvim-tree/nvim-web-devicons" })
-        use({"akinsho/bufferline.nvim", 
+        use ({"akinsho/bufferline.nvim", 
                 requires = { "kyazdani42/nvim-web-devicons", "moll/vim-bbye" }})
         use ({"nvim-lualine/lualine.nvim",
                 requires = { "nvim-tree/nvim-web-devicons", opt = true }})
+        use ("nvimdev/dashboard-nvim")
+        use ({"nvim-telescope/telescope.nvim",
+                requires = { "nvim-lua/plenary.nvim" } })
+        use ("LinArcX/telescope-env.nvim")
+        use ("ahmedkhalf/project.nvim")
     end,
     config = {
         max_jobs = 16,

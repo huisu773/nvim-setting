@@ -78,4 +78,5 @@ vim.o.pumheight = 10
 vim.o.showtabline = 2
 -- turn off vim mode show
 vim.o.showmode = false
-
+-- clipboard
+vim.opt.clipboard:append("unnamedplus")

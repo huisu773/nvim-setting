@@ -12,7 +12,6 @@ return { desc = "nvim-tree: " .. desc, buffer = bufnr, noremap = true, silent = 
 end
 
 local map = vim.keymap.set
-
 -- default mappings
 api.config.mappings.default_on_attach(bufnr)
 -- custom mappings
@@ -46,7 +45,7 @@ nvim_tree.setup({
     git = {
         enable = true,
     },
-    -- project plugin setting
+    -- project nvim plugin setting
     update_cwd = true,
     update_focused_file = {
         enable = true,
