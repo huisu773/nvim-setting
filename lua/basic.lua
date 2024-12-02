@@ -63,8 +63,8 @@ vim.o.splitright = true
 vim.g.completeopt = "menu,menuone,noselect,noinsert"
 -- style 
 vim.o.background = "dark"
---vim.o.termguicolors = true
---vim.opt.termguicolors = true
+vim.o.termguicolors = true
+vim.opt.termguicolors = true
 -- show invisible char as dot
 -- vim.o.list = true
 -- vim.o.listchars = "space:·"

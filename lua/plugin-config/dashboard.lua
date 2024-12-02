@@ -33,27 +33,27 @@ db.setup({
         center = {
             {
                 icon = ' ',
-                desc = 'Find File',
+                desc = ' Find File',
                 action = 'Telescope find_files'
             }, 
             {
-                icon = '',
-                desc = 'Find Text',
+                icon = ' ',
+                desc = ' Find Text',
                 action = 'Telescope live_grep'
             },
             {
                 icon = ' ',
-                desc = 'Recent Files',
+                desc = ' Recent Files',
                 action = 'Telescope oldfiles'
             },
             {
                 icon = ' ',
-                desc = 'Recent Projects',
+                desc = ' Recent Projects',
                 action = 'Telescope projects'
             },
             {
                 icon = ' ',
-                desc = 'Edit Projects',
+                desc = ' Edit Projects',
                 action = 'edit ~/.local/share/nvim/project_nvim/project_history',
             },
         },

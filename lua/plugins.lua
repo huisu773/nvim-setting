@@ -14,6 +14,8 @@ packer.startup({
                 requires = { "nvim-lua/plenary.nvim" } })
         use ("LinArcX/telescope-env.nvim")
         use ("ahmedkhalf/project.nvim")
+        use({ "nvim-treesitter/nvim-treesitter", 
+                run = ":TSUpdate" })
     end,
     config = {
         max_jobs = 16,
