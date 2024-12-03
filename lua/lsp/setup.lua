@@ -1,28 +1,28 @@
 require("mason").setup({
-  ui = {
-    icons = {
-      package_installed = "✓",
-      package_pending = "➜",
-      package_uninstalled = "✗",
+    ui = {
+        icons = {
+            package_installed = "✓",
+            package_pending = "➜",
+            package_uninstalled = "✗",
+        },
     },
-  },
 })
 
 require("mason-lspconfig").setup {
-	ensure_installed = {
-			"lua_ls",
-			"bashls",
-			"clangd",
-			"cmake",
-			"cssls",
-			"dockerls",
-			"docker_compose_language_service",
-			"gopls",
-			"html",
-			"jsonls",
-			"marksman",
-			"pylsp",
-	},
+    ensure_installed = {
+        "lua_ls",
+        "bashls",
+        "clangd",
+        "cmake",
+        "cssls",
+        "dockerls",
+        "docker_compose_language_service",
+        "gopls",
+        "html",
+        "jsonls",
+        "marksman",
+        "pylsp",
+    },
 }
 
 -- keymap
@@ -44,7 +44,7 @@ mason_lspconfig.setup_handlers({
             vim.keymap.set("n", "gp", "<cmd>lua vim.diagnostic.open_float()<CR>", bufopts)
             vim.keymap.set("n", "gk", "<cmd>lua vim.diagnostic.goto_prev()<CR>", bufopts)
             vim.keymap.set("n", "gj", "<cmd>lua vim.diagnostic.goto_next()<CR>", bufopts)
-            vim.keymap.set("n", "<leader>f", "<cmd>lua vim.lsp.buf.formatting()<CR>", bufopts)
+            vim.keymap.set("n", "<leader>f", "<cmd>lua vim.lsp.buf.format()<CR>", bufopts)
         end
         nvim_lsp[server_name].setup(opts)
     end
