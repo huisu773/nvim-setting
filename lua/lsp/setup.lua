@@ -22,7 +22,7 @@ require("mason-lspconfig").setup {
 			"jsonls",
 			"marksman",
 			"pylsp",
-	}
+	},
 }
 
 -- keymap
