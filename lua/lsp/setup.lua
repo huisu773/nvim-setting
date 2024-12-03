@@ -52,3 +52,7 @@ mason_lspconfig.setup_handlers({
 
 -- language config
 require("lsp.config.lua")
+require("lsp.config.html")
+require("lsp.config.css")
+require("lsp.config.emmet")
+
